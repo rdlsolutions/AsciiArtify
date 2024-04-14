@@ -133,7 +133,7 @@ One feature that stands out is called auto deployment. It allows you to deploy y
       <td>project page</td>
       <td><a href="https://minikube.sigs.k8s.io/">minikube</a></td>
       <td><a href="https://kind.sigs.k8s.io/">kind</a></td>
-      <td><a href="https://k3s.io/">K3d</a></td>
+      <td><a href="https://k3d.io/">K3d</a></td>
     </tr>
   </tbody>
 </table>
