@@ -138,6 +138,11 @@ One feature that stands out is called auto deployment. It allows you to deploy y
   </tbody>
 </table>
 
+
+### Demonstration
+
+![alt text](demo.gif)
+
 ### Alternatives Minikube
 *microk8s* - An upstream Kubernetes distribution made for operations on IoT and edge computing devices in remote locations. It is optimized for IoT and edge computing resource constraints.
 
