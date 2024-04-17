@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name : ansiiartify
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    name : in-cluster
+    namespace: demo-app
+  source:
+    path : "scripts"
+    repoURL: "git@github.com:rdlsolutions/AsciiArtify.git"
+    targetRevision: HEAD
+  project: default
+  syncPolicy:
+    automated:
+      prune : true
+      selfHeal: true
