@@ -39,10 +39,6 @@ The application is split into the K3d server and the agent. The former acts as a
 
 One feature that stands out is called auto deployment. It allows you to deploy your Kubernetes manifests and Helm charts by putting them in a specific directory. K3d watches for changes and takes care of applying them without any further interaction. This is especially useful for CI pipelines and IoT devices (both target use cases of K3d). Just create/update your configuration and K3d makes sure to keep your deployments up to date.
 
-## Demonstration
-
-![alt text](demo.gif)
-
 ## Details
 
 ### Table compare parameters
