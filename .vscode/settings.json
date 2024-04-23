@@ -1,5 +1,6 @@
 {
     "githubPullRequests.remotes": [
         "rdlsolutions"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
