@@ -2,9 +2,6 @@
 Logs AMBASSADOR
 
 
-![Uploading image.png…]()
-
-
 2024-04-25 20:15:16 kubewatch [24 TMainThread] 0.51.2 INFO: kubewatch starting: mode 'cluster-id' ambassador_config_dir '/no/such/path' envoy_config_file '/dev/null' debug 'False' delay '1.0' pid 'None'
 2024-04-25 20:15:16 kubewatch [24 TMainThread] 0.51.2 INFO: namespace demo, watching just this namespace
 2024-04-25 20:15:16 kubewatch [24 TMainThread] 0.51.2 ERROR: couldn't read namespace demo? (403)
